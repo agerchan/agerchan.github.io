@@ -1,6 +1,10 @@
 button {
-    /* border-radius: 1000em; */
-    color: rgb(255, 255, 255);
-    background: rgba(50, 50, 200, 100);
-    border:none;
+    color: white;
+    background: transparent;
+    border-color: white;
 }
+
+.button:hover {
+    background-color: white;
+    color: transparent;
+  }

@@ -1,0 +1,4 @@
+- randomize love letters game
+- make format (for blondes for example)
+- adjust buttons
+- create home button element

@@ -8,9 +8,22 @@ button {
     color: white;
     background: transparent;
     border-color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
 }
 
-.button:hover {
-    background-color: white;
-    color: transparent;
+.arrow {
+    color: black;
+    background: transparent;
+    border-color: white;
+    border: 0px solid black;
+    padding: 10px 15px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.arrow:hover {
+    background-color: black;
+    color: white;
 }

@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Albert+Sans&display=swap');
+
+p { font-family: 'Albert Sans'; }
+
+h1 { font-family: 'Albert Sans'; }
+
 button {
     color: white;
     background: transparent;
@@ -7,4 +13,4 @@ button {
 .button:hover {
     background-color: white;
     color: transparent;
-  }
+}

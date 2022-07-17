@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Albert+Sans&display=swap');
 
 h1 { font-family: 'Albert Sans'; }
-p { font-family: 'Albert Sans'; }
+p { font-family: 'Helvetica'; }
 
 button {
     color: white;
@@ -44,7 +44,7 @@ button {
     border-color: black;
     padding: 5px 10px;
     cursor: pointer;
-    border-radius: 5px;
+    /* border-radius: 5px; */
 }
 
 .loveletter:hover {

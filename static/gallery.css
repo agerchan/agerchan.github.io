@@ -1,7 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Albert+Sans&display=swap');
 
-h1 { font-family: 'Albert Sans'; }
-p { font-family: 'Helvetica'; }
+h1 { 
+    font-family: 'Albert Sans'; 
+    font-size: 48px;
+}
+
+h2 {
+    font-family: 'Albert Sans'; 
+    font-size: 36px;
+}
+
+p { 
+    font-family: 'Helvetica'; 
+}
 
 body {margin:25px;padding:25px}
 

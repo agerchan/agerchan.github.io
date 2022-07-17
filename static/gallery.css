@@ -16,6 +16,13 @@ p {
 
 body {margin:25px;padding:25px}
 
+img {
+    Padding: 50px,50px;
+}
+.padding {
+    padding: 50px 25px 50px 25px;
+}
+
 button {
     color: white;
     background: transparent;

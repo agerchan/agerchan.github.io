@@ -8,10 +8,17 @@ button {
     color: white;
     background: transparent;
     border-color: white;
+    border: 0px solid black;
     padding: 14px 28px;
     font-size: 16px;
     cursor: pointer;
 }
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
 
 .arrow {
     color: black;
@@ -25,5 +32,19 @@ button {
 
 .arrow:hover {
     background-color: black;
+    color: white;
+}
+
+.loveletter {
+    background: oldlace;
+    /* border: 1px solid grey; */
+    border-color: black;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.loveletter:hover {
+    background-color: pink;
     color: white;
 }

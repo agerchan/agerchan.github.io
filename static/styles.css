@@ -14,11 +14,14 @@ button {
     cursor: pointer;
 }
 
-button:hover {
-    background-color: black;
-    color: white;
+.homepage{
+    color:blue
 }
 
+homepage:hover {
+    background-color: rgba(255,255,255,0.5);
+    color: white;
+}
 
 .arrow {
     color: black;
@@ -45,6 +48,6 @@ button:hover {
 }
 
 .loveletter:hover {
-    background-color: pink;
+    background-color: mistyrose;
     color: white;
 }

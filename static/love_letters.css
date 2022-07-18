@@ -1,0 +1,12 @@
+
+.letter {
+    width: 25px;
+    height: 25px;
+    background: url("../love_letters/closed.png") no-repeat;
+    display: inline-block;
+    filter: drop-shadow(1px 1px 3px black);
+}
+.letter:hover {
+    background: url("../love_letters/open.png")  no-repeat;
+    filter: drop-shadow(4px 4px 3px black);
+}

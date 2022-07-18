@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Albert+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Azeret+Mono&display=swap');
 
 h1 {    
-    font-family: 'Albert Sans';
+    font-family: 'Azeret Mono';
     font-size: 64px;
     color: white;
     /* text-shadow: 1px 1px 3px rgb(0, 15, 45); */
@@ -24,6 +25,7 @@ button {
     border: 0px solid black;
     padding: 14px 28px;
     font-size: 16px;
+    font-family: Azeret Mono;
     cursor: pointer;
 }
 

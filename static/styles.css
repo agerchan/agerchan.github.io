@@ -2,7 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Azeret+Mono&display=swap');
 
 h1 { font-family: 'Azeret Mono'; }
-p { font-family: 'Azeret Mono'; }
+p { 
+    font-family: 'Azeret Mono'; 
+    font-size: 12px;
+}
 
 body {margin:25px;padding:25px}
 
@@ -12,7 +15,7 @@ button {
     border-color: white;
     border: 0px solid black;
     padding: 14px 28px;
-    font-size: 16px;
+    font-size: 12px;
     font-family: Azeret Mono;
     cursor: pointer;
 }

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Azeret+Mono&display=swap');
 
 .letter {
     width: 25px;
@@ -9,4 +10,22 @@
 .letter:hover {
     background: url("../love_letters/open.png")  no-repeat;
     filter: drop-shadow(4px 4px 3px black);
+}
+
+
+button {
+    color: white;
+    background: transparent;
+    border-color: white;
+    border: 0px solid black;
+    padding: 14px 28px;
+    font-size: 16px;
+    font-family: Azeret Mono;
+    cursor: pointer;
+}
+
+.gohome {
+    color: black;
+    padding: 5px 10px;
+    text-shadow: 0px 0px 5px rgb(255, 255, 255);
 }

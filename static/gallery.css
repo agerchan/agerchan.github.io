@@ -2,17 +2,17 @@
 @import url('https://fonts.googleapis.com/css?family=Azeret+Mono&display=swap');
 
 h1 { 
-    font-family: 'Azeret Mono'; 
+    font-family: 'Albert Sans'; 
     font-size: 32px;
 }
 
 h2 {
-    font-family: 'Azeret Mono'; 
+    font-family: 'Albert Sans'; 
     font-size: 16px;
 }
 
 p { 
-    font-family: 'Azeret Mono'; 
+    font-family: 'Albert Sans'; 
     font-size: 12px;
 }
 
@@ -32,7 +32,7 @@ button {
     border: 0px solid black;
     padding: 14px 28px;
     font-size: 16px;
-    font-family: Azeret Mono;
+    font-family: Albert Sans;
     cursor: pointer;
 }
 

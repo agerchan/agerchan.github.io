@@ -1,9 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Albert+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Azeret+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Almarai&display=swap');
+@import url('https://fonts.googleapis.com/css?family=DM+Sans&display=swap'); /* title */
+@import url('https://fonts.googleapis.com/css?family=Playfair Display SC&display=swap'); /* for serif */
+@import url('https://fonts.googleapis.com/css?family=Plus Jakarta Sans&display=swap'); /* for paragraph */
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap'); /* for paragraph backup */
+@import url('https://fonts.googleapis.com/css?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=DM+Sans&display=swap');
 
-h1 { font-family: 'Azeret Mono'; }
+h1 { font-family: 'Albert Sans'; }
+
+/* dm sans for title
+raleway for p
+*/
+
 p { 
-    font-family: 'Azeret Mono'; 
+    font-family: 'Albert Sans'; 
     font-size: 12px;
 }
 
@@ -14,9 +26,9 @@ button {
     background: transparent;
     border-color: white;
     border: 0px solid black;
-    padding: 14px 28px;
+    padding: 14px 28px; 
     font-size: 12px;
-    font-family: Azeret Mono;
+    font-family: Albert Sans;
     cursor: pointer;
 }
 

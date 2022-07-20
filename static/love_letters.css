@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Azeret+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Albert+Sans&display=swap');
+
+p { 
+    font-family: 'Playfair Display SC'; 
+    font-size: 12px;
+}
 
 .letter {
     width: 25px;
@@ -20,7 +26,7 @@ button {
     border: 0px solid black;
     padding: 14px 28px;
     font-size: 12px;
-    font-family: Azeret Mono;
+    font-family: Albert Sans;
     cursor: pointer;
 }
 

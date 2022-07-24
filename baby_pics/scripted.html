@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <div class="photos">
+            Your images would populate here.
+        </div>
+        <h1><?php echo "Hello World" ?></h1>
+        <?php
+            $files = scandir('pics/');
+            foreach($files as $file) {
+                if($file !== "." && $file !== "..") {
+                    echo "<img src='$file' />";
+                }
+            }
+        ?>
+    </body>
+</html>

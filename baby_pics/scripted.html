@@ -6,10 +6,12 @@
         </div>
         <h1><?php echo "Hello World" ?></h1>
         <?php
+            echo '<img src="pics/1.jpg">';
             $files = scandir('pics/');
             foreach($files as $file) {
+                echo '<img src="'.$file.'">';
                 if($file !== "." && $file !== "..") {
-                    echo "<img src='$file' />";
+                    echo '<img src="'.$file.'">';
                 }
             }
         ?>

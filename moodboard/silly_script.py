@@ -7,4 +7,4 @@ directory = 'moodboard_pics'
 # iterate over files in
 # that directory
 for filename in os.listdir(directory):
-    print(f"<img src=\"moodboard_pics/{filename}\" height=\"150\">")
+    print(f"<img src=\"moodboard_pics/{filename}\" style=\"border:0px;margin:200px\" width=\"450\"><br>")

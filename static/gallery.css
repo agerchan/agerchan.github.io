@@ -70,3 +70,19 @@ button {
     text-shadow: 0px 0px 5px rgb(255, 255, 255);
     font-size: 12px;
 }
+
+.column {
+    float: left;
+    padding: 10px;
+    font-family: 'Albert Sans'; 
+    font-size: 12px;
+    text-align: center;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    text-align: center;
+  }

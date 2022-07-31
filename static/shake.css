@@ -1,0 +1,22 @@
+.shake a:hover{ 
+    animation: shake 200ms infinite;
+    animation-timing-function: linear;   
+  }
+  
+  @keyframes shake {
+    0% { transform: rotate(0.5deg); }
+    50% { transform: rotate(-5deg); }
+    100% { transform: rotate(5deg); }
+  }
+
+a{
+width: 100px;
+height: 133px;
+background: url("../me.png") no-repeat;
+display: inline-block;
+filter: drop-shadow(2px 2px 4px rgb(0, 0, 0));
+margin: auto;
+margin-left: 20px;
+padding: 20px;
+text-align: center;
+}

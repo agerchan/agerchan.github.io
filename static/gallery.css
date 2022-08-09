@@ -16,7 +16,40 @@ p {
     font-size: 12px;
 }
 
-body {margin:25px;padding:25px}
+body {padding:25px}
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    padding-top: 0px;
+    outline-style: solid;
+    outline-width: 1px;
+    font-family: 'Albert Sans'; 
+    font-size: 14px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #000000;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #7c7c7c;
+  }
+  
+  .main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+
+  }
 
 img {
     Padding: 50px,50px;

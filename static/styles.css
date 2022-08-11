@@ -32,7 +32,7 @@ body {margin:50px}
 
 .sidenav {
     height: 100%;
-    width: 200px;
+    width: 250px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -58,7 +58,7 @@ body {margin:50px}
   }
   
   .main {
-    margin-left: 200px; /* Same as the width of the sidenav */
+    margin-left: 250px; /* Same as the width of the sidenav */
 
   }
 

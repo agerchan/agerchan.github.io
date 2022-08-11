@@ -19,6 +19,15 @@ p {
     font-size: 12px;
 }
 
+a {
+  color:#000000;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #7c7c7c;
+}
+
 body {margin:50px}
 
 .sidenav {
